@@ -15,6 +15,7 @@
     <description>springboot</description>
     <properties>
         <java.version>19</java.version>
+        <start-class>com.yang.SpringbootApplication</start-class>
     </properties>
     <dependencies>
         <dependency>
@@ -29,11 +30,15 @@
         </dependency>
     </dependencies>
 
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>${start-class}</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
