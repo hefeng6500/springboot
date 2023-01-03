@@ -1,2 +1,13 @@
+lesson: SpringBoot
+
 server:
-  port: 82
+  port: 80
+
+enterprise:
+  name: yang
+  age: 20
+  tel: 13866660000
+  subject:
+    - java
+    - javascript
+    - go
