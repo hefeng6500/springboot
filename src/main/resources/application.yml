@@ -1,7 +1,7 @@
 lesson: SpringBoot
-spring:
-  profiles:
-    active: pro
+#spring:
+#  profiles:
+#    active: dev
 
 enterprise:
   name: yang
