@@ -1,7 +1,13 @@
 package com.yang.domain;
 
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 
+@Component
+@ConfigurationProperties(prefix = "enterprise")
 public class Enterprise {
     private String name;
     private int age;
