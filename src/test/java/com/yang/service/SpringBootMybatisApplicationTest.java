@@ -1,4 +1,4 @@
-package com.yang.springboot;
+package com.yang.service;
 
 import com.yang.dao.BookDao;
 import com.yang.domain.Book;
